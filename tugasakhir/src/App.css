@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0096a7;
+  color: #000000;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+h1 {
+  color: #000000;
+}
+
+label {
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  font-size: 1.2em;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.recommendations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.content{
+  min-height: 100vh;
+
+}
+.recommendation {
+  background: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.footer-content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8em;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.socials li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.socials li a {
+  text-decoration: none;
+  color: white;
+}
+
+.socials li a i {
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.socials li a:hover i {
+  color: #f39c12;
+}
+
+.footer-bottom {
+  background: #222;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9em;
+}
